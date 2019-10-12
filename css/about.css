@@ -88,6 +88,11 @@ p {
     color: black;
 }
 
+.container_nav nav a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
 .container_jumbo{
     margin-bottom: 1.5em;
 }
@@ -107,6 +112,18 @@ p {
 .container_row{
     display: flex;
     margin-left: 1em;
+}
+
+@media (max-width: 600px){
+    .container_row{
+        flex-direction: column;
+    }
+    .container_row .container_mid p{
+        width: 300px;
+    }
+    .container_work_together p{
+        width: 300px;
+    }
 }
 
 .container_mid{
@@ -152,4 +169,9 @@ footer nav a{
     color: grey;
     margin-right: 2em;
     margin-left: 0.7em;
+}
+
+footer nav a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
