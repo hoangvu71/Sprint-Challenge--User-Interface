@@ -47,7 +47,7 @@ Edit this document to include your answers after each question. Make sure to lea
     Cross axis
 
 5. Explain why git is valuable to a team of developers.
-This version control system is valuable to a team of developers because it allows everyone on the team to be working in the same project without interrupting each other. It also keep tract of the modifications and allows each developer to revert back to a different version.
+    This version control system is valuable to a team of developers because it allows everyone on the team to be working in the same project without interrupting each other. It also keep tract of the modifications and allows each developer to revert back to a different version.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
